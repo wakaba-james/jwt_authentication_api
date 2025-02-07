@@ -3,7 +3,7 @@ const {createPool} = require("mysql2")
 const pool = createPool({
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USER,
-    'password': 'Lames0708@#@#',
+    password: process.env.USER_PASSWORD,
     database: process.env.MYSQL_DATABASE,
     port: process.env.MYSQL_PORT,
     connectionLimit: 10,
