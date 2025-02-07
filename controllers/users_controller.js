@@ -149,12 +149,6 @@ const login = async (req, res) => {
     });
 };
 
-
-
-
-
-
-
 module.exports ={
     register_user,
     get_all_users,
